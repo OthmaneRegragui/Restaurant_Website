@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partitions Page</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <div class="partition main">
+        <nav>
+            <span class="goldenLetter">R</span><span>estauran</span><span class="goldenLetter">t</span>
+        </nav>
+        <section id="intro">
+            <video autoplay muted id="backgroundVideo" class="background-video">
+                <source src="/assets/videos/main_background_1.mp4" type="video/mp4">
+                <source src="/assets/videos/main_background_2.mp4" type="video/mp4">
+                <source src="/assets/videos/main_background_3.mp4" type="video/mp4">
+                <source src="/assets/videos/main_background_4.mp4" type="video/mp4">
+            </video>
+            <div class="center-text">
+                <h1>Welcome to Our Restaurant</h1>
+                <p>Experience a world of culinary delights that will tickle your taste buds and leave you craving for more.</p>
+                <a href="#menu" class="golden-button">See Menu</a>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- Partition 2 -->
+    <div id="menu" class="partition menu">
+        <h1 class="golden-text">Menu</h1>
+        <!-- Add a grid container for the cards -->
+        <div class="card-grid">
+            <div class="card">
+                <img src="/assets/images/items/item_1.jpg" alt="item 1">
+                <h1>Item 1</h1>
+                <p class="price">$29.99</p>
+                <p>Some text about the item 1 ...</p>
+            </div>
+            <div class="card">
+                <img src="/assets/images/items/item_2.jpg" alt="item 2">
+                <h1>Item 2</h1>
+                <p class="price">$29.99</p>
+                <p>Some text about the item 2 ...</p>
+            </div>
+            <div class="card">
+                <img src="/assets/images/items/item_3.jpg" alt="item 3">
+                <h1>Item 3</h1>
+                <p class="price">$29.99</p>
+                <p>Some text about the item 3 ...</p>
+            </div>
+            <div class="card">
+                <img src="/assets/images/items/item_4.jpg" alt="item 4">
+                <h1>Item 4</h1>
+                <p class="price">$29.99</p>
+                <p>Some text about item 4 ...</p>
+            </div>
+            
+            <div class="card">
+                <img src="/assets/images/items/item_5.jpg" alt="item 5">
+                <h1>Item 5</h1>
+                <p class="price">$29.99</p>
+                <p>Some text about item 5 ...</p>
+            </div>
+            
+            <div class="card">
+                <img src="/assets/images/items/item_6.jpg" alt="item 6">
+                <h1>Item 6</h1>
+                <p class="price">$29.99</p>
+                <p>Some text about item 6 ...</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Partition 3 - Info -->
+    <div id="info" class="partition info">
+        <div class="info-content">
+            <div class="info-box">
+                <div class="social-media">
+                    <!-- Add your social media links/icons here -->
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <!-- Add more social media links/icons as needed -->
+                </div>
+                <div class="contact-details">
+                    <p>Address: Your Restaurant Address</p>
+                    <p>Phone: Your Phone Number</p>
+                </div>
+                <div class="google-map">
+                    <!-- Add your Google Map iframe here -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dYOUR_LATITUDE_LONGITUDE!2dYOUR_LONGITUDE!2dYOUR_LATITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xYOUR_MAP_ZOOM!2sYOUR_MAP_MARKER" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Buttons -->
+    <div class="scroll-buttons">
+        <button onclick="scrollToSection(false)">Scroll Up</button>
+        <button onclick="scrollToSection(true)">Scroll Down</button>
+    </div>
+
+    <!-- Script for scrolling and video playback -->
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
